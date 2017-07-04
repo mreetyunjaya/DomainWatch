@@ -5,10 +5,10 @@ Currently DomainWatch monitors for 12 services.
 
 # Usage
 Scan your domainlist:  
-`./monitor.sh scan <domain_list>`
+`./domainwatch.sh scan <domain_list>`
 
 Add a domain to your domain list:  
-`./monitor.sh add http://localhost/ <domain_list>`
+`./domainwatch.sh add http://localhost/ <domain_list>`
 
 # Credits
 Twitter:  https://twitter.com/DamianEbelties  
