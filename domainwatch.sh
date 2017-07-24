@@ -20,7 +20,8 @@ elif [[ $1 == "scan" ]]; then
             echo -e "${FOUND} CloudFront!${RESET} $line"
         elif [[ $HTML == *"NoSuchBucket"* ]]; then
             echo -e "${FOUND} S3 Bucket!${RESET} $line"
-        elif [[ $HTML == *"There is no app configured at that hostname"* ]]; then
+        elif [[ $HTML == *"There is no app configured at that hostname"* ]] ||
+             [[ $HTML == *"no-such-app.html"* ]]; then
             echo -e "${FOUND} Heroku!${RESET} $line"
         elif [[ $HTML == *"Are you trying to publish one"* ]]; then
             echo -e "${FOUND} GitHub!${RESET} $line"
