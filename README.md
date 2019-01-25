@@ -1,3 +1,6 @@
+# Project Discontinued
+The project is old, and is not being worked on anymore!
+
 # DomainWatch
 DomainWatch allows everyone to monitor a big list of (sub)domains for possible take-overs, all written in Bash.
 
